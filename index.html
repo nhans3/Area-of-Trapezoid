@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area of A Trapezoid</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Area of Trapezoid Calculator</h1>
+    <img src="img/areatrapezoid.jpg" id="trapezoid" />
+    <!-- <p>
+      A = <sup>1</sup>&frasl;<sub>2</sub>( b<sub>1</sub> + b<sub>2</sub>) * h
+    </p> -->
+
+    <h2>Inputs</h2>
+    <p>Length of top base (b1): <input id="b1-input" type="text" /></p>
+    <p>Length of bottom base (b2): <input id="b2-input" type="text" /></p>
+    <p>Height of trapezoid (h): <input id="h-input" type="text" /></p>
+
+    <label for="area-unit">Choose Unit of Measurement</label>
+    <select name="unit" id="area-unit">
+      <option value="cm">centimeters</option>
+      <option value="m">meters</option>
+      <option value="ft">feet</option>
+      <option value="in">inches</option>
+    </select>
+
+    <br />
+    <button id="cal-btn">CALCULATE</button>
+
+    <h2>Output</h2>
+    <p id="flexContent">
+      The area of the trapezoid is <span id="output">----</span>
+      <span id="output-unit"> </span>.
+    </p>
+
+    <div id="pic-container"></div>
+  </body>
+</html>

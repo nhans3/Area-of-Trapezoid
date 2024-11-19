@@ -1,0 +1,46 @@
+html {
+  background-color: rgb(229, 163, 255);
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  font-family: "Courier New", Courier, monospace;
+  background-color: white;
+  border: solid rgb(247, 185, 51) 2px;
+  border-radius: 15px;
+  padding: 50px 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-variant: small-caps;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 40px;
+  font-variant: small-caps;
+}
+
+#trapezoid {
+  width: 400px;
+}
+
+img {
+  width: 40px;
+}
+
+#pic-container {
+  display: inline-block;
+  transform: translate(5px, 10px);
+}
+
+#flexContent {
+  display: inline-block;
+}
+
+button {
+  margin-top: 20px;
+}
